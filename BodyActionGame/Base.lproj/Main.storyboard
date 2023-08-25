@@ -30,6 +30,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="rollButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="shq-7K-vLd"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yourChoiceAct" translatesAutoresizingMaskIntoConstraints="NO" id="dMU-DY-whF">
                                 <rect key="frame" x="16" y="423" width="165" height="161"/>
@@ -61,7 +64,7 @@
                     <connections>
                         <outlet property="leftButton" destination="dMU-DY-whF" id="YQ0-2Y-CYw"/>
                         <outlet property="rightButton" destination="1aC-74-7KC" id="0RR-9z-uVv"/>
-                        <outlet property="rollButton" destination="rgy-Hf-0yQ" id="LwV-wO-kuh"/>
+                        <outlet property="rollButton" destination="rgy-Hf-0yQ" id="fE6-ez-Q6N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
